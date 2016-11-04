@@ -22,6 +22,8 @@
 
 -include vendor/fairphone/msm8974/BoardConfig.mk
 
+-include device/qcom/common/msm8974/BoardConfigVendor.mk
+
 LOCAL_PATH := device/fairphone/fp2
 
 #TARGET_HAVE_HDMI_OUT := false
