@@ -13,3 +13,5 @@
 # limitations under the License.
 
 add_lunch_combo cm_fp2-userdebug
+add_lunch_combo cm_fp2-user
+add_lunch_combo cm_fp2-eng
