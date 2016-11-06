@@ -54,6 +54,7 @@ fi
 DEVBASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 rm -rf $DEVBASE/*
 
+extract ../../$VENDOR/$DEVICE/proprietary-files-qc.txt $DEVBASE
 extract ../../$VENDOR/$DEVICE/proprietary-files.txt $DEVBASE
 
 ./setup-makefiles.sh
